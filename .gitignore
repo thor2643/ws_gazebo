@@ -1,0 +1,18 @@
+.vscode/
+
+# Compiled object files
+*.o
+*.obj
+
+# Compiled executables
+*.exe
+*.out
+
+# Generated CMake files
+CMakeFiles/
+CMakeCache.txt
+CMakeScripts/
+build/
+install/
+log/
+devel/

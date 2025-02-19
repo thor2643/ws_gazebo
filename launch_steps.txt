@@ -1,0 +1,2 @@
+1. Source install/setup.bash
+2. ros2 launch lbr_description iiwa7.launch
