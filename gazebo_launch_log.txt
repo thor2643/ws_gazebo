@@ -1,0 +1,241 @@
+thor@thor-ThinkPad-P50:~/ws_gazebo$ ros2 launch lbr_description iiwa7.launch.py 
+[INFO] [launch]: All log files can be found below /home/thor/.ros/log/2025-02-19-18-28-36-671198-thor-ThinkPad-P50-14956
+[INFO] [launch]: Default logging verbosity is set to INFO
+Using load_yaml() directly is deprecated. Use xacro.load_yaml() instead.
+[INFO] [ruby $(which ign) gazebo-1]: process started with pid [14957]
+[INFO] [create-2]: process started with pid [14959]
+[INFO] [robot_state_publisher-3]: process started with pid [14961]
+[INFO] [parameter_bridge-4]: process started with pid [14963]
+[create-2] [INFO] [1739986117.390703153] [ros_gz_sim]: Requesting list of world names.
+[robot_state_publisher-3] [INFO] [1739986117.413055230] [robot_state_publisher]: got segment link_0
+[robot_state_publisher-3] [INFO] [1739986117.413154176] [robot_state_publisher]: got segment link_1
+[robot_state_publisher-3] [INFO] [1739986117.413171594] [robot_state_publisher]: got segment link_2
+[robot_state_publisher-3] [INFO] [1739986117.413182438] [robot_state_publisher]: got segment link_3
+[robot_state_publisher-3] [INFO] [1739986117.413191713] [robot_state_publisher]: got segment link_4
+[robot_state_publisher-3] [INFO] [1739986117.413200862] [robot_state_publisher]: got segment link_5
+[robot_state_publisher-3] [INFO] [1739986117.413210133] [robot_state_publisher]: got segment link_6
+[robot_state_publisher-3] [INFO] [1739986117.413219111] [robot_state_publisher]: got segment link_7
+[robot_state_publisher-3] [INFO] [1739986117.413227988] [robot_state_publisher]: got segment link_ee
+[robot_state_publisher-3] [INFO] [1739986117.413237790] [robot_state_publisher]: got segment world
+[parameter_bridge-4] [INFO] [1739986117.420192475] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/clock (ignition.msgs.Clock) -> /clock (rosgraph_msgs/msg/Clock)] (Lazy 0)
+[ruby $(which ign) gazebo-1] [Dbg] [gz.cc:161] Subscribing to [/gazebo/starting_world].
+[ruby $(which ign) gazebo-1] [Dbg] [gz.cc:163] Waiting for a world to be set from the GUI...
+[ruby $(which ign) gazebo-1] [Msg] Received world [empty.sdf] from the GUI.
+[ruby $(which ign) gazebo-1] [Dbg] [gz.cc:167] Unsubscribing from [/gazebo/starting_world].
+[ruby $(which ign) gazebo-1] [Msg] Ignition Gazebo Server v6.16.0
+[ruby $(which ign) gazebo-1] [Msg] Loading SDF world file[/usr/share/ignition/ignition-gazebo6/worlds/empty.sdf].
+[ruby $(which ign) gazebo-1] [Msg] Serving entity system service on [/entity/system/add]
+[ruby $(which ign) gazebo-1] [Dbg] [Physics.cc:804] Loaded [ignition::physics::dartsim::Plugin] from library [/usr/lib/x86_64-linux-gnu/ign-physics-5/engine-plugins/libignition-physics-dartsim-plugin.so]
+[ruby $(which ign) gazebo-1] [Dbg] [SystemManager.cc:70] Loaded system [gz::sim::systems::Physics] for entity [1]
+[ruby $(which ign) gazebo-1] [Msg] Create service on [/world/empty/create]
+[ruby $(which ign) gazebo-1] [Msg] Remove service on [/world/empty/remove]
+[ruby $(which ign) gazebo-1] [Msg] Pose service on [/world/empty/set_pose]
+[ruby $(which ign) gazebo-1] [Msg] Pose service on [/world/empty/set_pose_vector]
+[ruby $(which ign) gazebo-1] [Msg] Light configuration service on [/world/empty/light_config]
+[ruby $(which ign) gazebo-1] [Msg] Physics service on [/world/empty/set_physics]
+[ruby $(which ign) gazebo-1] [Msg] SphericalCoordinates service on [/world/empty/set_spherical_coordinates]
+[ruby $(which ign) gazebo-1] [Msg] Enable collision service on [/world/empty/enable_collision]
+[ruby $(which ign) gazebo-1] [Msg] Disable collision service on [/world/empty/disable_collision]
+[ruby $(which ign) gazebo-1] [Msg] Material service on [/world/empty/visual_config]
+[ruby $(which ign) gazebo-1] [Msg] Material service on [/world/empty/wheel_slip]
+[ruby $(which ign) gazebo-1] [Dbg] [SystemManager.cc:70] Loaded system [gz::sim::systems::UserCommands] for entity [1]
+[ruby $(which ign) gazebo-1] [Dbg] [SystemManager.cc:70] Loaded system [gz::sim::systems::SceneBroadcaster] for entity [1]
+[ruby $(which ign) gazebo-1] [Dbg] [SystemManager.cc:70] Loaded system [gz::sim::systems::Contact] for entity [1]
+[ruby $(which ign) gazebo-1] [Msg] Loaded level [3]
+[ruby $(which ign) gazebo-1] [Msg] Serving world controls on [/world/empty/control], [/world/empty/control/state] and [/world/empty/playback/control]
+[ruby $(which ign) gazebo-1] [Msg] Serving GUI information on [/world/empty/gui/info]
+[ruby $(which ign) gazebo-1] [Msg] World [empty] initialized with [1ms] physics profile.
+[ruby $(which ign) gazebo-1] [Msg] Serving world SDF generation service on [/world/empty/generate_world_sdf]
+[ruby $(which ign) gazebo-1] [Msg] Serving world names on [/gazebo/worlds]
+[ruby $(which ign) gazebo-1] [Msg] Resource path add service on [/gazebo/resource_paths/add].
+[ruby $(which ign) gazebo-1] [Msg] Resource path get service on [/gazebo/resource_paths/get].
+[create-2] [INFO] [1739986117.941393925] [ros_gz_sim]: Requested creation of entity.
+[create-2] [INFO] [1739986117.941521771] [ros_gz_sim]: OK creation of entity.
+[INFO] [create-2]: process has finished cleanly [pid 14959]
+[ruby $(which ign) gazebo-1] [GUI] [Wrn] [Application.cc:797] [QT] qrc:/qml/StyleDialog.qml:112:3: QML Connections: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }
+[ruby $(which ign) gazebo-1] [GUI] [Wrn] [Application.cc:797] [QT] qrc:/qml/StyleDialog.qml:105:3: QML Connections: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }
+[ruby $(which ign) gazebo-1] [GUI] [Wrn] [Application.cc:797] [QT] qrc:/qml/StyleDialog.qml:98:3: QML Connections: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }
+[ruby $(which ign) gazebo-1] [GUI] [Wrn] [Application.cc:797] [QT] qrc:qml/Main.qml:102:3: QML Connections: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }
+[ruby $(which ign) gazebo-1] [GUI] [Wrn] [Application.cc:797] [QT] qrc:/qml/PluginMenu.qml:27:3: QML Connections: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }
+[ruby $(which ign) gazebo-1] [GUI] [Wrn] [Application.cc:797] [QT] file::/Gazebo/GazeboDrawer.qml:242:3: QML Connections: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }
+[ruby $(which ign) gazebo-1] [GUI] [Wrn] [Application.cc:797] [QT] file::/EntityContextMenuPlugin/EntityContextMenuPlugin.qml:57:5: QML Connections: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }
+[ruby $(which ign) gazebo-1] [GUI] [Wrn] [Application.cc:797] [QT] file::/EntityContextMenuPlugin/EntityContextMenuPlugin.qml:52:3: QML RenderWindowOverlay: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+[ruby $(which ign) gazebo-1] [GUI] [Wrn] [Application.cc:797] [QT] file::/EntityContextMenuPlugin/EntityContextMenuPlugin.qml:67:3: QML EntityContextMenu: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+[ruby $(which ign) gazebo-1] [GUI] [Wrn] [Application.cc:797] [QT] file::/EntityContextMenuPlugin/EntityContextMenuPlugin.qml:52:3: QML RenderWindowOverlay: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+[ruby $(which ign) gazebo-1] [GUI] [Wrn] [Application.cc:797] [QT] file::/EntityContextMenuPlugin/EntityContextMenuPlugin.qml:67:3: QML EntityContextMenu: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+[ruby $(which ign) gazebo-1] [GUI] [Wrn] [Application.cc:797] [QT] file::/EntityContextMenuPlugin/EntityContextMenuPlugin.qml:52:3: QML RenderWindowOverlay: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+[ruby $(which ign) gazebo-1] [GUI] [Wrn] [Application.cc:797] [QT] file::/EntityContextMenuPlugin/EntityContextMenuPlugin.qml:67:3: QML EntityContextMenu: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+[ruby $(which ign) gazebo-1] [GUI] [Wrn] [Application.cc:797] [QT] file::/EntityContextMenuPlugin/EntityContextMenuPlugin.qml:52:3: QML RenderWindowOverlay: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+[ruby $(which ign) gazebo-1] [GUI] [Wrn] [Application.cc:797] [QT] file::/EntityContextMenuPlugin/EntityContextMenuPlugin.qml:67:3: QML EntityContextMenu: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+[ruby $(which ign) gazebo-1] [GUI] [Wrn] [Application.cc:797] [QT] file::/EntityContextMenuPlugin/EntityContextMenuPlugin.qml:52:3: QML RenderWindowOverlay: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+[ruby $(which ign) gazebo-1] [GUI] [Wrn] [Application.cc:797] [QT] file::/EntityContextMenuPlugin/EntityContextMenuPlugin.qml:67:3: QML EntityContextMenu: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+[ruby $(which ign) gazebo-1] [GUI] [Wrn] [Application.cc:797] [QT] file::/EntityContextMenuPlugin/EntityContextMenuPlugin.qml:52:3: QML RenderWindowOverlay: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+[ruby $(which ign) gazebo-1] [GUI] [Wrn] [Application.cc:797] [QT] file::/EntityContextMenuPlugin/EntityContextMenuPlugin.qml:67:3: QML EntityContextMenu: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+[ruby $(which ign) gazebo-1] [Msg] Resource path resolve service on [/gazebo/resource_paths/resolve].[Msg] Ignition Gazebo GUI    v6.16.0
+[ruby $(which ign) gazebo-1] [Dbg] [Gui.cc:253] Waiting for subscribers to [/gazebo/starting_world]...
+[ruby $(which ign) gazebo-1] [Dbg] [Application.cc:92] Initializing application.
+[ruby $(which ign) gazebo-1] [GUI] [Dbg] [Application.cc:555] Create main window
+[ruby $(which ign) gazebo-1] [GUI] [Dbg] [PathManager.cc:66] Requesting resource paths through [/gazebo/resource_paths/get]
+[ruby $(which ign) gazebo-1] [GUI] [Dbg] [Gui.cc:333] GUI requesting list of world names. The server may be busy downloading resources. Please be patient.
+[ruby $(which ign) gazebo-1] [GUI] [Dbg] [PathManager.cc:55] Received resource paths.
+[ruby $(which ign) gazebo-1] [GUI] [Dbg] [Gui.cc:391] Requesting GUI from [/world/empty/gui/info]...
+[ruby $(which ign) gazebo-1] [GUI] [Dbg] [GuiRunner.cc:145] Requesting initial state from [/world/empty/state]...
+[ruby $(which ign) gazebo-1] [GUI] [Msg] Loading config [/home/thor/.ignition/gazebo/6/gui.config]
+[ruby $(which ign) gazebo-1] [GUI] [Dbg] [Application.cc:426] Loading plugin [MinimalScene]
+[ruby $(which ign) gazebo-1] [GUI] [Msg] Added plugin [3D View] to main window
+[ruby $(which ign) gazebo-1] [GUI] [Msg] Loaded plugin [MinimalScene] from path [/usr/lib/x86_64-linux-gnu/ign-gui-6/plugins/libMinimalScene.so]
+[ruby $(which ign) gazebo-1] [GUI] [Dbg] [Application.cc:426] Loading plugin [EntityContextMenuPlugin]
+[ruby $(which ign) gazebo-1] [GUI] [Msg] Added plugin [Entity Context Menu] to main window
+[ruby $(which ign) gazebo-1] [GUI] [Msg] Loaded plugin [EntityContextMenuPlugin] from path [/usr/lib/x86_64-linux-gnu/ign-gazebo-6/plugins/gui/libEntityContextMenuPlugin.so]
+[ruby $(which ign) gazebo-1] [GUI] [Dbg] [Application.cc:426] Loading plugin [GzSceneManager]
+[ruby $(which ign) gazebo-1] [GUI] [Msg] Added plugin [Scene Manager] to main window
+[ruby $(which ign) gazebo-1] [GUI] [Msg] Loaded plugin [GzSceneManager] from path [/usr/lib/x86_64-linux-gnu/ign-gazebo-6/plugins/gui/libGzSceneManager.so]
+[ruby $(which ign) gazebo-1] [GUI] [Dbg] [Application.cc:426] Loading plugin [InteractiveViewControl]
+[ruby $(which ign) gazebo-1] [GUI] [Msg] Camera view controller topic advertised on [/gui/camera/view_control]
+[ruby $(which ign) gazebo-1] [GUI] [Msg] Camera reference visual topic advertised on [/gui/camera/view_control/reference_visual]
+[ruby $(which ign) gazebo-1] [GUI] [Msg] Camera view control sensitivity advertised on [/gui/camera/view_control/sensitivity]
+[ruby $(which ign) gazebo-1] [GUI] [Msg] Added plugin [Interactive view control] to main window
+[ruby $(which ign) gazebo-1] [GUI] [Msg] Loaded plugin [InteractiveViewControl] from path [/usr/lib/x86_64-linux-gnu/ign-gui-6/plugins/libInteractiveViewControl.so]
+[ruby $(which ign) gazebo-1] [GUI] [Dbg] [Application.cc:426] Loading plugin [CameraTracking]
+[ruby $(which ign) gazebo-1] [GUI] [Msg] Added plugin [Camera tracking] to main window
+[ruby $(which ign) gazebo-1] [GUI] [Msg] Loaded plugin [CameraTracking] from path [/usr/lib/x86_64-linux-gnu/ign-gui-6/plugins/libCameraTracking.so]
+[ruby $(which ign) gazebo-1] [GUI] [Wrn] [Application.cc:797] [QT] file::/Spawn/Spawn.qml:32:3: QML Connections: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }
+[ruby $(which ign) gazebo-1] [GUI] [Wrn] [Application.cc:797] [QT] file::/WorldControl/WorldControl.qml:30:3: QML Connections: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }
+[ruby $(which ign) gazebo-1] [GUI] [Dbg] [Application.cc:426] Loading plugin [MarkerManager]
+[ruby $(which ign) gazebo-1] [GUI] [Msg] Listening to stats on [/world/empty/stats]
+[ruby $(which ign) gazebo-1] [GUI] [Msg] Added plugin [Marker Manager] to main window
+[ruby $(which ign) gazebo-1] [GUI] [Msg] Loaded plugin [MarkerManager] from path [/usr/lib/x86_64-linux-gnu/ign-gui-6/plugins/libMarkerManager.so]
+[ruby $(which ign) gazebo-1] [GUI] [Dbg] [Application.cc:426] Loading plugin [SelectEntities]
+[ruby $(which ign) gazebo-1] [GUI] [Msg] Added plugin [Select entities] to main window
+[ruby $(which ign) gazebo-1] [GUI] [Msg] Loaded plugin [SelectEntities] from path [/usr/lib/x86_64-linux-gnu/ign-gazebo-6/plugins/gui/libSelectEntities.so]
+[ruby $(which ign) gazebo-1] [GUI] [Dbg] [Application.cc:426] Loading plugin [Spawn]
+[ruby $(which ign) gazebo-1] [GUI] [Msg] Added plugin [Spawn] to main window
+[ruby $(which ign) gazebo-1] [GUI] [Msg] Loaded plugin [Spawn] from path [/usr/lib/x86_64-linux-gnu/ign-gazebo-6/plugins/gui/libSpawn.so]
+[ruby $(which ign) gazebo-1] [GUI] [Dbg] [Application.cc:426] Loading plugin [VisualizationCapabilities]
+[ruby $(which ign) gazebo-1] [GUI] [Msg] View as transparent service on [/gui/view/transparent]
+[ruby $(which ign) gazebo-1] [GUI] [Msg] View as wireframes service on [/gui/view/wireframes]
+[ruby $(which ign) gazebo-1] [GUI] [Msg] View center of mass service on [/gui/view/com]
+[ruby $(which ign) gazebo-1] [GUI] [Msg] View inertia service on [/gui/view/inertia]
+[ruby $(which ign) gazebo-1] [GUI] [Msg] View collisions service on [/gui/view/collisions]
+[ruby $(which ign) gazebo-1] [GUI] [Msg] View joints service on [/gui/view/joints]
+[ruby $(which ign) gazebo-1] [GUI] [Msg] View frames service on [/gui/view/frames]
+[ruby $(which ign) gazebo-1] [GUI] [Msg] Added plugin [Visualization capabilities] to main window
+[ruby $(which ign) gazebo-1] [GUI] [Msg] Loaded plugin [VisualizationCapabilities] from path [/usr/lib/x86_64-linux-gnu/ign-gazebo-6/plugins/gui/libVisualizationCapabilities.so]
+[ruby $(which ign) gazebo-1] [GUI] [Dbg] [Application.cc:426] Loading plugin [WorldControl]
+[ruby $(which ign) gazebo-1] [GUI] [Msg] Using world control service [/world/empty/control]
+[ruby $(which ign) gazebo-1] [GUI] [Msg] Listening to stats on [/world/empty/stats]
+[ruby $(which ign) gazebo-1] [GUI] [Dbg] [WorldControl.cc:246] Using an event to share WorldControl msgs with the server
+[ruby $(which ign) gazebo-1] [GUI] [Msg] Added plugin [World control] to main window
+[ruby $(which ign) gazebo-1] [GUI] [Msg] Loaded plugin [WorldControl] from path [/usr/lib/x86_64-linux-gnu/ign-gui-6/plugins/libWorldControl.so]
+[ruby $(which ign) gazebo-1] [GUI] [Dbg] [Application.cc:426] Loading plugin [WorldStats]
+[ruby $(which ign) gazebo-1] [GUI] [Msg] Listening to stats on [/world/empty/stats]
+[ruby $(which ign) gazebo-1] [GUI] [Msg] Added plugin [World stats] to main window
+[ruby $(which ign) gazebo-1] [GUI] [Msg] Loaded plugin [WorldStats] from path [/usr/lib/x86_64-linux-gnu/ign-gui-6/plugins/libWorldStats.so]
+[ruby $(which ign) gazebo-1] [GUI] [Wrn] [Application.cc:797] [QT] file::/TransformControl/TransformControl.qml:104:3: QML Connections: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }
+[ruby $(which ign) gazebo-1] [GUI] [Wrn] [Application.cc:797] [QT] file::/TransformControl/TransformControl.qml:99:3: QML Connections: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }
+[ruby $(which ign) gazebo-1] [GUI] [Wrn] [Application.cc:797] [QT] file::/TransformControl/TransformControl.qml:94:3: QML Connections: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }
+[ruby $(which ign) gazebo-1] [GUI] [Wrn] [Application.cc:797] [QT] file::/TransformControl/TransformControl.qml:89:3: QML Connections: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }
+[ruby $(which ign) gazebo-1] [GUI] [Wrn] [Application.cc:797] [QT] file::/EntityTree/EntityTree.qml:148:7: QML ToolButton: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+[ruby $(which ign) gazebo-1] [GUI] [Wrn] [Application.cc:797] [QT] file::/WorldStats/WorldStats.qml:53:3: QML RowLayout: Binding loop detected for property "x"
+[ruby $(which ign) gazebo-1] [GUI] [Wrn] [Application.cc:797] [QT] file::/EntityContextMenuPlugin/EntityContextMenuPlugin.qml:52:3: QML RenderWindowOverlay: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+[ruby $(which ign) gazebo-1] [GUI] [Wrn] [Application.cc:797] [QT] file::/EntityContextMenuPlugin/EntityContextMenuPlugin.qml:67:3: QML EntityContextMenu: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+[ruby $(which ign) gazebo-1] libEGL warning: egl: failed to create dri2 screen
+[ruby $(which ign) gazebo-1] libEGL warning: egl: failed to create dri2 screen
+[ruby $(which ign) gazebo-1] [INFO] [1739986119.694066453] [GazeboSimROS2ControlPlugin]: robot_param_node is robot_state_publisher
+[ruby $(which ign) gazebo-1] [INFO] [1739986119.694114659] [GazeboSimROS2ControlPlugin]: robot_param_node is robot_description
+[ruby $(which ign) gazebo-1] [INFO] [1739986119.729928791] [gz_ros2_control]: connected to service!! robot_state_publisher asking for robot_description
+[ruby $(which ign) gazebo-1] [INFO] [1739986119.731014007] [gz_ros2_control]: Received URDF from param server
+[ruby $(which ign) gazebo-1] [INFO] [1739986119.732452419] [gz_ros2_control]: [ign_ros2_control] Fixed joint [world_joint] (Entity=35)] is skipped
+[ruby $(which ign) gazebo-1] [INFO] [1739986119.742964305] [gz_ros2_control]: The position_proportional_gain has been set to: 0.1
+[ruby $(which ign) gazebo-1] [INFO] [1739986119.743186454] [gz_ros2_control]: Loading joint: A1
+[ruby $(which ign) gazebo-1] [INFO] [1739986119.743221397] [gz_ros2_control]: 	State:
+[ruby $(which ign) gazebo-1] [INFO] [1739986119.743240997] [gz_ros2_control]: 	 position
+[ruby $(which ign) gazebo-1] [INFO] [1739986119.743364685] [gz_ros2_control]: 	 found initial value: 0.000000
+[ruby $(which ign) gazebo-1] [INFO] [1739986119.743390717] [gz_ros2_control]: 	 velocity
+[ruby $(which ign) gazebo-1] [INFO] [1739986119.743448561] [gz_ros2_control]: 	Command:
+[ruby $(which ign) gazebo-1] [INFO] [1739986119.743460350] [gz_ros2_control]: 	 position
+[ruby $(which ign) gazebo-1] [INFO] [1739986119.743648017] [gz_ros2_control]: Loading joint: A2
+[ruby $(which ign) gazebo-1] [INFO] [1739986119.743662810] [gz_ros2_control]: 	State:
+[ruby $(which ign) gazebo-1] [INFO] [1739986119.743671341] [gz_ros2_control]: 	 position
+[ruby $(which ign) gazebo-1] [INFO] [1739986119.743681039] [gz_ros2_control]: 	 found initial value: 0.000000
+[ruby $(which ign) gazebo-1] [INFO] [1739986119.743690682] [gz_ros2_control]: 	 velocity
+[ruby $(which ign) gazebo-1] [INFO] [1739986119.743705531] [gz_ros2_control]: 	Command:
+[ruby $(which ign) gazebo-1] [INFO] [1739986119.743720229] [gz_ros2_control]: 	 position
+[ruby $(which ign) gazebo-1] [INFO] [1739986119.743789839] [gz_ros2_control]: Loading joint: A3
+[ruby $(which ign) gazebo-1] [INFO] [1739986119.743814445] [gz_ros2_control]: 	State:
+[ruby $(which ign) gazebo-1] [INFO] [1739986119.743824800] [gz_ros2_control]: 	 position
+[ruby $(which ign) gazebo-1] [INFO] [1739986119.743836347] [gz_ros2_control]: 	 found initial value: 0.000000
+[ruby $(which ign) gazebo-1] [INFO] [1739986119.743846589] [gz_ros2_control]: 	 velocity
+[ruby $(which ign) gazebo-1] [INFO] [1739986119.743854836] [gz_ros2_control]: 	Command:
+[ruby $(which ign) gazebo-1] [INFO] [1739986119.743868665] [gz_ros2_control]: 	 position
+[ruby $(which ign) gazebo-1] [INFO] [1739986119.743923092] [gz_ros2_control]: Loading joint: A4
+[ruby $(which ign) gazebo-1] [INFO] [1739986119.743947362] [gz_ros2_control]: 	State:
+[ruby $(which ign) gazebo-1] [INFO] [1739986119.743963928] [gz_ros2_control]: 	 position
+[ruby $(which ign) gazebo-1] [INFO] [1739986119.743981846] [gz_ros2_control]: 	 found initial value: 0.000000
+[ruby $(which ign) gazebo-1] [INFO] [1739986119.744004228] [gz_ros2_control]: 	 velocity
+[ruby $(which ign) gazebo-1] [INFO] [1739986119.744021700] [gz_ros2_control]: 	Command:
+[ruby $(which ign) gazebo-1] [INFO] [1739986119.744036202] [gz_ros2_control]: 	 position
+[ruby $(which ign) gazebo-1] [INFO] [1739986119.744072874] [gz_ros2_control]: Loading joint: A5
+[ruby $(which ign) gazebo-1] [INFO] [1739986119.744095481] [gz_ros2_control]: 	State:
+[ruby $(which ign) gazebo-1] [INFO] [1739986119.744111477] [gz_ros2_control]: 	 position
+[ruby $(which ign) gazebo-1] [INFO] [1739986119.744161404] [gz_ros2_control]: 	 found initial value: 0.000000
+[ruby $(which ign) gazebo-1] [INFO] [1739986119.744183597] [gz_ros2_control]: 	 velocity
+[ruby $(which ign) gazebo-1] [INFO] [1739986119.744201742] [gz_ros2_control]: 	Command:
+[ruby $(which ign) gazebo-1] [INFO] [1739986119.744217091] [gz_ros2_control]: 	 position
+[ruby $(which ign) gazebo-1] [INFO] [1739986119.744263731] [gz_ros2_control]: Loading joint: A6
+[ruby $(which ign) gazebo-1] [INFO] [1739986119.744286456] [gz_ros2_control]: 	State:
+[ruby $(which ign) gazebo-1] [INFO] [1739986119.744303426] [gz_ros2_control]: 	 position
+[ruby $(which ign) gazebo-1] [INFO] [1739986119.744319849] [gz_ros2_control]: 	 found initial value: 0.000000
+[ruby $(which ign) gazebo-1] [INFO] [1739986119.744343479] [gz_ros2_control]: 	 velocity
+[ruby $(which ign) gazebo-1] [INFO] [1739986119.744366570] [gz_ros2_control]: 	Command:
+[ruby $(which ign) gazebo-1] [INFO] [1739986119.744382954] [gz_ros2_control]: 	 position
+[ruby $(which ign) gazebo-1] [INFO] [1739986119.744426386] [gz_ros2_control]: Loading joint: A7
+[ruby $(which ign) gazebo-1] [INFO] [1739986119.744446967] [gz_ros2_control]: 	State:
+[ruby $(which ign) gazebo-1] [INFO] [1739986119.744462956] [gz_ros2_control]: 	 position
+[ruby $(which ign) gazebo-1] [INFO] [1739986119.744478724] [gz_ros2_control]: 	 found initial value: 0.000000
+[ruby $(which ign) gazebo-1] [INFO] [1739986119.744496499] [gz_ros2_control]: 	 velocity
+[ruby $(which ign) gazebo-1] [INFO] [1739986119.744513374] [gz_ros2_control]: 	Command:
+[ruby $(which ign) gazebo-1] [INFO] [1739986119.744528827] [gz_ros2_control]: 	 position
+[ruby $(which ign) gazebo-1] [INFO] [1739986119.745164018] [resource_manager]: Initialize hardware 'IgnitionSystem' 
+[ruby $(which ign) gazebo-1] [WARN] [1739986119.745192021] [gz_ros2_control]: On init...
+[ruby $(which ign) gazebo-1] [INFO] [1739986119.745642256] [resource_manager]: Successful initialization of hardware 'IgnitionSystem'
+[ruby $(which ign) gazebo-1] [INFO] [1739986119.745767667] [resource_manager]: 'configure' hardware 'IgnitionSystem' 
+[ruby $(which ign) gazebo-1] [INFO] [1739986119.745780915] [gz_ros2_control]: System Successfully configured!
+[ruby $(which ign) gazebo-1] [INFO] [1739986119.745811246] [resource_manager]: Successful 'configure' of hardware 'IgnitionSystem'
+[ruby $(which ign) gazebo-1] [INFO] [1739986119.745829567] [resource_manager]: 'activate' hardware 'IgnitionSystem' 
+[ruby $(which ign) gazebo-1] [INFO] [1739986119.745904378] [resource_manager]: Successful 'activate' of hardware 'IgnitionSystem'
+[ruby $(which ign) gazebo-1] [INFO] [1739986119.745928085] [gz_ros2_control]: Loading controller_manager
+[ruby $(which ign) gazebo-1] [GUI] [Dbg] [Application.cc:426] Loading plugin [Shapes]
+[ruby $(which ign) gazebo-1] [GUI] [Msg] Added plugin [Shapes] to main window
+[ruby $(which ign) gazebo-1] [GUI] [Msg] Loaded plugin [Shapes] from path [/usr/lib/x86_64-linux-gnu/ign-gazebo-6/plugins/gui/libShapes.so]
+[ruby $(which ign) gazebo-1] [GUI] [Dbg] [Application.cc:426] Loading plugin [Lights]
+[ruby $(which ign) gazebo-1] [GUI] [Msg] Added plugin [Lights] to main window
+[ruby $(which ign) gazebo-1] [GUI] [Msg] Loaded plugin [Lights] from path [/usr/lib/x86_64-linux-gnu/ign-gazebo-6/plugins/gui/libLights.so]
+[ruby $(which ign) gazebo-1] [GUI] [Dbg] [Application.cc:426] Loading plugin [TransformControl]
+[ruby $(which ign) gazebo-1] [GUI] [Dbg] [TransformControl.cc:222] Legacy mode is disabled; this plugin must be used with MinimalScene.
+[ruby $(which ign) gazebo-1] [GUI] [Msg] Added plugin [Transform control] to main window
+[ruby $(which ign) gazebo-1] [GUI] [Msg] Loaded plugin [TransformControl] from path [/usr/lib/x86_64-linux-gnu/ign-gazebo-6/plugins/gui/libTransformControl.so]
+[ruby $(which ign) gazebo-1] [GUI] [Dbg] [Application.cc:426] Loading plugin [Screenshot]
+[ruby $(which ign) gazebo-1] [GUI] [Msg] Screenshot service on [/gui/screenshot]
+[ruby $(which ign) gazebo-1] [GUI] [Msg] Added plugin [Screenshot] to main window
+[ruby $(which ign) gazebo-1] [GUI] [Msg] Loaded plugin [Screenshot] from path [/usr/lib/x86_64-linux-gnu/ign-gui-6/plugins/libScreenshot.so]
+[ruby $(which ign) gazebo-1] [GUI] [Dbg] [Application.cc:426] Loading plugin [CopyPaste]
+[ruby $(which ign) gazebo-1] [GUI] [Msg] Added plugin [Copy/Paste] to main window
+[ruby $(which ign) gazebo-1] [GUI] [Msg] Loaded plugin [CopyPaste] from path [/usr/lib/x86_64-linux-gnu/ign-gazebo-6/plugins/gui/libCopyPaste.so]
+[ruby $(which ign) gazebo-1] [GUI] [Dbg] [Application.cc:426] Loading plugin [ComponentInspector]
+[ruby $(which ign) gazebo-1] [GUI] [Msg] Added plugin [Component inspector] to main window
+[ruby $(which ign) gazebo-1] [GUI] [Msg] Loaded plugin [ComponentInspector] from path [/usr/lib/x86_64-linux-gnu/ign-gazebo-6/plugins/gui/libComponentInspector.so]
+[ruby $(which ign) gazebo-1] [GUI] [Dbg] [Application.cc:426] Loading plugin [EntityTree]
+[ruby $(which ign) gazebo-1] [GUI] [Msg] Added plugin [Entity tree] to main window
+[ruby $(which ign) gazebo-1] [GUI] [Msg] Loaded plugin [EntityTree] from path [/usr/lib/x86_64-linux-gnu/ign-gazebo-6/plugins/gui/libEntityTree.so]
+[ruby $(which ign) gazebo-1] [GUI] [Dbg] [Application.cc:296] Loading window config
+[ruby $(which ign) gazebo-1] [GUI] [Msg] Using server control service [/server_control]
+[ruby $(which ign) gazebo-1] [GUI] [Dbg] [Application.cc:569] Applying config
+[ruby $(which ign) gazebo-1] [GUI] [Msg] Loading plugin [ignition-rendering-ogre2]
+[ruby $(which ign) gazebo-1] [GUI] [Dbg] [MinimalScene.cc:602] Create scene [scene]
+[ruby $(which ign) gazebo-1] [GUI] [Msg] Loading plugin [ignition-rendering-ogre2]
+[ruby $(which ign) gazebo-1] [Wrn] [Component.hh:144] Trying to serialize component with data type [N3sdf3v125WorldE], which doesn't have `operator<<`. Component will not be serialized.
+[ruby $(which ign) gazebo-1] [WARN] [1739986119.999235587] [gz_ros2_control]:  Desired controller update period (0.01 s) is slower than the gazebo simulation period (0.001 s).
+[ruby $(which ign) gazebo-1] [GUI] [Wrn] [Component.hh:189] Trying to deserialize component with data type [N3sdf3v125WorldE], which doesn't have `operator>>`. Component will not be deserialized.
+[ruby $(which ign) gazebo-1] [GUI] [Wrn] [Application.cc:797] [QT] qrc:/qml/PluginMenu.qml:130: TypeError: Cannot read property 'width' of null
+[ruby $(which ign) gazebo-1] [GUI] [Wrn] [Application.cc:797] [QT] qrc:/qml/PluginMenu.qml:130: TypeError: Cannot read property 'width' of null
